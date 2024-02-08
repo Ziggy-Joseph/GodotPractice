@@ -1,0 +1,23 @@
+﻿<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <ProjectGuid>{38E98EA4-0A3B-48CD-B4C7-F9DFC4E9C75D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Code a life bar</RootNamespace>
+    <AssemblyName>Code a life bar</AssemblyName>
+    <TargetFramework>net472</TargetFramework>
+    <!--The following properties were overridden during migration to prevent errors.
+    Enabling them may require other manual changes to the project and its files.-->
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="scripts\Enemy.cs" />
+    <Compile Include="scripts\Gui.cs" />
+    <Compile Include="scripts\Player.cs" />
+  </ItemGroup>
+</Project>
